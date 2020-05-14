@@ -27,8 +27,12 @@ body {
 	max-width: 30%;
 }
 
+.content.reverseActive {
+    transform: translateX(200px) rotateY(25deg);
+}
+
 .content.active {
-	transform: translateX(200px) rotateY(20deg);
+    transform: translateX(200px) rotateY(-25deg);
 }
 
 .container {
